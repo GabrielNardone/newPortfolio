@@ -1,0 +1,16 @@
+.divProjects {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #002b52;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .divProjects{
+        justify-content: center;
+    }
+}
+

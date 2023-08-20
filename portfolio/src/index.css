@@ -1,0 +1,109 @@
+:root {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+}
+
+.navSection {
+  height: 100vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: center;
+  border-right: 2px solid #d0d0d0;
+  position: sticky;
+  top: 0;
+  background-color: #f6f6f6;
+}
+
+.outlet {
+  width: calc(100% - 20vw);
+  display: flex;
+  flex-direction: column;
+}
+
+.hacked {
+  font-family: 'HACKED', sans-serif;
+}
+
+nav {
+  padding: 3vh 0;
+  font-size: 1.1rem;
+  background-color: #e5e7eb;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: space-around;
+  width: 14vw;
+}
+
+
+.active {
+  color: rgba(255, 52, 127, .5);
+  color: rgba(102, 191, 191, .7);
+}
+
+a {
+  font-weight: 600;
+  color: rgb(0, 43, 82);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #66bfbf;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 17vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navSection {
+    width: 30vw;
+  }
+
+  nav {
+    width: 22vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .navSection {
+    width: 0vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .outlet {
+    width: calc(100%);
+  }
+
+  .active {
+    width: 45vw;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+}

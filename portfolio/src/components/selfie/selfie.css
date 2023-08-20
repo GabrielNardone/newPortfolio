@@ -1,0 +1,31 @@
+.card {
+  box-sizing: border-box;
+  border-radius: 17px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  gap: 5px;
+}
+
+.card img {
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border: 1px solid white;
+  width: 32%;
+  border-radius: 17px;
+  transition: all 0.5s;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .card img {
+    width: 46%;
+  }
+}

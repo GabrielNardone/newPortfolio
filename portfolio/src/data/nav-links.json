@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Services",
+        "path": "/services",
+        "icon": "fa-solid fa-bell-concierge"
+    },
+    {
+        "name": "About me",
+        "path": "/",
+        "icon": "fa-solid fa-user-tie"
+    },
+    {
+        "name": "Tech pool",
+        "path": "/techpool",
+        "icon": "fa-solid fa-file-code"
+    },
+    {
+        "name": "Ethics",
+        "path": "/ethics",
+        "icon": "fa-solid fa-feather-pointed"
+    },
+    {
+        "name": "Projects",
+        "path": "/projects",
+        "icon": "fa-regular fa-folder-open"
+    },
+    {
+        "name": "Contact",
+        "path": "/contact",
+        "icon": "fa-regular fa-handshake"
+    }
+]

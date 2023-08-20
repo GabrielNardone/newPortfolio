@@ -1,0 +1,147 @@
+.divContact {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #fff;
+}
+
+.divContact form {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #002b52;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 14px;
+}
+
+.writeMe {
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.divContact input {
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    height: 3vh;
+    background-color: #fff;
+}
+
+.divContact textarea {
+    height: 15vh;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+}
+
+.divContact button {
+    color: #393e46;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 1.2rem;
+    border: none;
+    padding: 1vh 0;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.divContact button:hover {
+    background-color: #ff7800;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divContact div {
+    color: #fff;
+    margin-left: 3vw;
+    font-size: 1.3rem;
+    background-color: #002b52;
+    background-image: url("/blueBg.jpg");
+    background-size: cover;
+    width: 25%;
+    height: 50%;
+    padding: 1vh 1vw;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.divContact a {
+    color: #fff;
+}
+
+.mail {
+    font-size: 0.9rem;
+}
+
+.fa-arrow-right-long {
+    margin-left: 15px;
+}
+
+.contactLogo {
+    font-size: 5rem;
+    font-family: 'HACKED', sans-serif;
+    position: absolute;
+    right: 35px;
+    bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    .divContact div {
+        font-size: 1rem;
+    }
+
+    .contactLogo {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .divContact form {
+        width: 60%;
+        height: 90%;
+    }
+
+    .divContact div {
+        width: 30%;
+        height: 65%;
+    }
+
+    .contactLogo {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .divContact {
+        flex-direction: column;
+    }
+
+    .divContact form {
+        width: 85%;
+        height: 85%;
+    }
+
+    .divContact div {
+        width: 75%;
+        height: 68%;
+        margin-top: 15px;
+    }
+
+    .contactLogo {
+        font-size: 3rem;
+    }
+}

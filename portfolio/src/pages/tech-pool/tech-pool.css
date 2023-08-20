@@ -1,0 +1,70 @@
+.divTechPool {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #002b52;
+    background: linear-gradient(-45deg, #002b52 0%, #12A8EB 100%);
+}
+
+.divTechPool div {
+    width: 80%;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.divTechPool span {
+    color: #002b52;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.divTechPool img {
+    width: 80px;
+    animation: rotation 15s infinite linear;
+}
+
+.logoArticle {
+    display: flex;
+    margin-left: -80px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .divTechPool {
+        position: relative;
+    }
+
+    .divTechPool img {
+        position: absolute;
+        top: 13px;
+        right: 55px;
+    }
+
+    .logoArticle {
+        margin-left: 0;
+    }
+
+    .divTechPool div{
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media (max-width: 530px) {
+    .divTechPool img {
+        display: none;
+    }
+}

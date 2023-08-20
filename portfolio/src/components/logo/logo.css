@@ -1,0 +1,26 @@
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vh;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.logoDiv img {
+    width: 35px;
+    position: absolute;
+}
+
+.logoDiv span {
+    font-size: 6rem;
+    background: -webkit-linear-gradient(#051937, #12A8EB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoDiv p {
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 10px;
+}

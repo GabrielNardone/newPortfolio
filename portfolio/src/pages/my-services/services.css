@@ -1,0 +1,24 @@
+.divServices {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #002b52;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
+}
+
+.divServices div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 740px) {
+    .divServices {
+        height: 100vh;
+    }
+}
