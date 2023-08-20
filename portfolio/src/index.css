@@ -104,6 +104,31 @@ a:hover {
 
   nav {
     width: 80%;
+    font-size: 1.4rem;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .navSection {
+    width: 0vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .outlet {
+    width: calc(100%);
+  }
+
+  .active {
+    width: 55vw;
+  }
+
+  nav {
+    width: 80%;
   }
 
 }

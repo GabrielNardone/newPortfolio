@@ -15,7 +15,7 @@ export const items = [
         title: "Old portfolio (JavaScript)",
         img: "/old-portfolio.jpg",
         description: "This is my Old Portfolio.",
-        link: "https://gabriel-nardone-portfolio.netlify.app/"
+        link: "https://old-gn-portfolio.netlify.app"
     },
     {
         title: "Calendar App (JavaScript)",
