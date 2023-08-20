@@ -1,7 +1,6 @@
 import { useState } from "react"
 import "./ethics.css"
 import { Column } from "../../components/column/Column"
-import { Pixel } from "../../components/pixel/Pixel"
 
 export const Ethics = () => {
   const quotes = [
