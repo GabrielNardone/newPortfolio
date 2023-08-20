@@ -13,6 +13,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
 }
 
 .cl2 {
@@ -23,6 +24,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-top: 4px;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
 }
 
 .cl3 {
@@ -32,6 +34,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius: 5px;
     margin-top: 4px;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
 }
 
 .vertical1 {
@@ -47,6 +50,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    background: linear-gradient(180deg, #002b52 0%, #12A8EB 100%);
 }
 
 .cl4 {
@@ -56,6 +60,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius: 5px;
     margin-top: 4px;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
 }
 
 .cl5 {
@@ -65,6 +70,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-radius: 5px;
     margin-top: 4px;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
 }
 
 .vertical2 {
@@ -80,6 +86,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    background: linear-gradient(180deg, #002b52 0%, #12A8EB 100%);
 }
 
 @media (max-width: 768px) {
