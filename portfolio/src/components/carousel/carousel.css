@@ -115,6 +115,7 @@
 
 @media (max-width: 1024px) {
     .carousel-description {
+        font-size: .9rem;
         width: 40%;
     }
 
