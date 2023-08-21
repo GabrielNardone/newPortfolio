@@ -20,12 +20,14 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .card {
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .card img {
-    width: 46%;
+    width: 30%;
   }
 }
