@@ -52,12 +52,12 @@
 .carousel-description {
     position: absolute;
     color: #fff;
-    font-weight: 600;
+    font-weight: lighter;
     background-color: #002b52;
     background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
     bottom: 10px;
     right: 20px;
-    width: 30%;
+    width: 40%;
     text-align: justify;
     padding: 10px;
     border-radius: 14px;
@@ -116,7 +116,6 @@
 @media (max-width: 1024px) {
     .carousel-description {
         font-size: .9rem;
-        width: 40%;
     }
 
     .carousel-img {

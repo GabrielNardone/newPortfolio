@@ -16,7 +16,7 @@ export const AboutMe = () => {
 
         <section>
           <p className="p2">
-            My main stack is React and the whole group around it [javascript, typescrip, node.js, packages, ...].
+            My main stack is React and the whole group around it [javascript, typescript, node.js, packages, ...].
             I really like everything that has to do with UX/UI, I don't lack creativity and innovation.
             Finally, I have great ambitions that I hope to achieve by working together.
           </p>

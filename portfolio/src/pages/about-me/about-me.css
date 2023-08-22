@@ -10,7 +10,7 @@
     font-size: 3.2rem;
     text-shadow: 2px 2px 5px rgba(102, 191, 191, .7);
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: bolder;
     margin-top: 0;
 }
 
@@ -54,7 +54,7 @@
 @media (max-width: 768px) {
     .divAboutMe p {
         font-size: 1.2rem;
-        line-height: normal;
+        line-height: 1.7;
     }
 
     .divAboutMe h2 {

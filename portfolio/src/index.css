@@ -1,7 +1,7 @@
 :root {
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
   line-height: 1.5;
-  font-weight: 400;
 
   color-scheme: light dark;
   color: #242424;
@@ -42,14 +42,14 @@ body {
 
 nav {
   padding: 3vh 0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   background-color: #e5e7eb;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
   height: 45vh;
   justify-content: space-around;
-  width: 14vw;
+  width: 15vw;
 }
 
 
@@ -59,7 +59,7 @@ nav {
 }
 
 a {
-  font-weight: 600;
+  font-weight: lighter;
   color: rgb(0, 43, 82);
   text-decoration: inherit;
 }
@@ -104,7 +104,7 @@ a:hover {
 
   nav {
     width: 80%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
 }
@@ -124,7 +124,7 @@ a:hover {
   }
 
   .active {
-    width: 55vw;
+    width: 50vw;
   }
 
   nav {
