@@ -1,15 +1,16 @@
+.divProjectsScroll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .divProjectsScroll {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 400px;
+        align-items: center;
+        gap: 30px;
     }
 }
 
-@media (min-width: 769px) {
-    .divProjectsScroll {
-        display: none;
-    }
-}
 
