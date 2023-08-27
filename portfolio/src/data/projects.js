@@ -1,24 +1,24 @@
 export const items = [
     {
-        title: "Map App (TypeScripts)",
+        title: "Map App (React.TS)",
         img: "/map-app.jpg",
         description: "This is a basic mapping app implemented with mapbox in the context of a React Pro course. This app is not complete, but it allowed me to learn the basics of a map app, expand my experience with typescript and hooks, and use complex APIs.",
         link: "https://maps-app-gfn.netlify.app"
     },
     {
-        title: "Memory Game (JavaScript)",
+        title: "Memory Game (React.JS)",
         img: "/memory.jpg",
         description: "I love memory games so I tried to make one. It's a lot of fun and I learned a lot implementing the logic. Use some packages.",
         link: "https://gfn-memory-game.netlify.app"
     },
     {
-        title: "Old portfolio (JavaScript)",
+        title: "Old portfolio (React.JS)",
         img: "/old-portfolio.jpg",
         description: "This is my Old Portfolio.",
         link: "https://old-gn-portfolio.netlify.app"
     },
     {
-        title: "Calendar App (JavaScript)",
+        title: "Calendar App (React.JS)",
         img: "/calendar.jpg",
         description: "It's like the Google calendar. I used a lot of packages. The back-end is pending.",
         link:"https://calendarappgfn.netlify.app"
@@ -30,16 +30,16 @@ export const items = [
         link: "https://github.com/GabrielNardone/FullStackProgress/tree/main/java-apps/cl%C3%ADnica-odontol%C3%B3gica-API%2BfrontEnd"
     },
     {
-        title: "Heroes App (JavaScript)",
+        title: "Heroes App (React.JS)",
         img: "/heroes.jpg",
         description: "I started using react-router-dom, did some animations, implemented some other kind of coding, used better folder structure. I learned a lot.",
         link: "https://gfn-heroes-app.netlify.app "
     },
     {
-        title: "Todo App (JavaScript Vanilla)",
-        img: "/todo-app.jpg",
+        title: "Todo App (React.JS)",
+        img: "/todo-app-2.jpg",
         description: "The classic to-do-app. You can add a task, mark or unmark it as complete, delete complete ones and filter by status. I used an imported packege to create a unique id for each task.",
-        link: "https://todoappgfn.netlify.app"
+        link: "https://todo-app-gfn.netlify.app"
     },
     {
         title: "Black Jack Game (JavaScript Vanilla)",
@@ -48,7 +48,7 @@ export const items = [
         link: "https://gfnblackjack-app.netlify.app"
     },
     {
-        title: "Poke Api (TypeScripts)",
+        title: "Poke Api (React.TS)",
         img: "/pokeApi.jpg",
         description: "First TypeScript App, only to practice the fetch logic in React plus the typed parameters from Typescript.",
         link: "https://poke-api-gfn.netlify.app/"
