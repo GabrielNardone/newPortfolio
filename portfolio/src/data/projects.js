@@ -38,7 +38,7 @@ export const items = [
     {
         title: "Todo App (React.JS)",
         img: "/todo-app-2.jpg",
-        description: "The classic to-do-app. You can add a task, mark or unmark it as complete, delete complete ones and filter by status. I used an imported packege to create a unique id for each task.",
+        description: "The classic to-do-app developed with Redux and Tailwind",
         link: "https://todo-app-gfn.netlify.app"
     },
     {
