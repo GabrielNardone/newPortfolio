@@ -27,7 +27,7 @@ body {
   border-right: 2px solid #d0d0d0;
   position: sticky;
   top: 0;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .outlet {
@@ -41,14 +41,15 @@ body {
 }
 
 nav {
-  padding: 3vh 0;
-  font-size: 1.3rem;
   background-color: #e5e7eb;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
+  font-size: 1.3rem;
   height: 45vh;
   justify-content: space-around;
+  margin-top: 3vh;
+  padding: 3vh 0;
   width: 15vw;
 }
 
@@ -68,9 +69,22 @@ a:hover {
   color: #66bfbf;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+
+  .navSection {
+    width: 22vw;
+  }
+
   nav {
     width: 17vw;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 19vw;
+    font-size: 1.1rem;
   }
 }
 
