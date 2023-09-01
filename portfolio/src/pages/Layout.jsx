@@ -25,7 +25,7 @@ export const Layout = () => {
         <div className="layout">
 
 
-            <section className={`navSection ${navBarWidth && "active"}`}>
+            <section className={`navSection ${navBarWidth && "active1"}`}>
 
                 <Logo />
 
