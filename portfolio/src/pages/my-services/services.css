@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-color: #002b52;
-    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
+    /* background-color: #002b52;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%); */
 }
 
 .divServices div {
@@ -15,10 +15,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #002b52;
+    background: linear-gradient(45deg, #002b52 0%, #12A8EB 100%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+    margin-top: -15vh;
 }
+
+@media (max-width: 950px) {
+    .divServices div{
+        flex-direction: column;
+        height: 70%;
+    }
+    .divServices h2{
+        margin-top: 0;
+    }
+}
+
 
 @media (max-width: 740px) {
     .divServices {
         height: 100vh;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .divServices div{
+        width: 70%;
+        height: 60%;
     }
 }

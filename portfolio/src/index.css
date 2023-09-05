@@ -51,6 +51,7 @@ nav {
   margin-top: 3vh;
   padding: 3vh 0;
   width: 15vw;
+  box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 
@@ -112,7 +113,7 @@ a:hover {
     width: calc(100%);
   }
 
-  .active {
+  .active1 {
     width: 45vw;
   }
 
@@ -146,7 +147,6 @@ a:hover {
   }
 
 }
-
 
 @media (max-width: 400px) {
 

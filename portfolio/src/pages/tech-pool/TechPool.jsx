@@ -3,25 +3,71 @@ import "./tech-pool.css"
 export const TechPool = () => {
   return (
     <div className='divTechPool'>
-      <div>
-          <span>Most used technologies:</span>
-        <article className="logoArticle">
-          <img src="/logo.svg" alt="react-logo"/>
-          <p> React / JavaScript / TypeScript / HTML / CSS / Boostrap / Tailwind / Git </p>
-        </article>
-        <article>
-          <span>Acquired skills:</span>
-          <p>Java / Spring / Hibernate / SQL / Postman / AWS Cloud Formation</p>
-        </article>
-        <article>
-          <span>Superficially acquired skills:</span>
-          <p>Python / Ansible / Terraform / Docker /  Linux / PowerShell</p>
-        </article>
-        <article>
-          <span>Skills in progress:</span>
-          <p>React Native / Next.js / Node.js /  MongoDB</p>
-        </article>
-      </div>
+      <article className="logoArticle">
+        <h2>Most used technologies:</h2>
+        <img src="/logo.svg" alt="react-logo" />
+        <div>
+          <span>React</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>JavaScript</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>TypeScript</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>HTML</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>CSS</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>Boostrap</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>TailWind</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>Git</span>
+        </div>
+      </article>
+      <article className="secondArticle">
+        <h2>Acquired skills:</h2>
+        <div>
+          <span>Java</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Spring</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Hibernate</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>SQL</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Postman</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>AWS Cloud Formation</span>
+        </div>
+      </article>
+      <article className="thirdArticle">
+        <h2>Superficially acquired skills:</h2>
+        <div>
+          <span>Python</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Ansible</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Terraform</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Docker</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Linux</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>PowerShell</span>
+        </div>
+      </article>
+      <article className="fourthArticle">
+        <h2>Skills in progress:</h2>
+        <div>
+          <span>React Native</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Next.js 13</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Node.js</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Mongo DB</span>
+        </div>
+      </article>
     </div>
   )
 }
