@@ -52,5 +52,11 @@ export const items = [
         img: "/pokeApi.jpg",
         description: "First TypeScript App, only to practice the fetch logic in React plus the typed parameters from Typescript.",
         link: "https://poke-api-gfn.netlify.app/"
+    },
+    {
+        title: "Dentist App (React.JS)",
+        img: "/dentist-app.png",
+        description: "No responsive app to implement the basic react hooks (state, reducer, context, memo)",
+        link: "https://dentist-app-gfn.netlify.app/"
     }
 ]
