@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     background-color: #fff;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .header h1 {
@@ -13,6 +13,7 @@
     background: -webkit-linear-gradient(#051937, #12A8EB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-right: 3vw;
 }
 
 .min-width-title{

@@ -20,6 +20,7 @@
 
 .divTechPool span {
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .divTechPool article div {
@@ -57,7 +58,7 @@
     font-size: 1rem;
 }
 .divTechPool h2 {
-    font-weight: 600;
+    font-weight: bolder;
     color: #002b52;
 }
 

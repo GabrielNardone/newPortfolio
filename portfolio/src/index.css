@@ -61,7 +61,7 @@ nav {
 }
 
 a {
-  font-weight: lighter;
+  font-weight: bold;
   color: rgb(0, 43, 82);
   text-decoration: inherit;
 }
@@ -69,6 +69,7 @@ a {
 a:hover {
   color: #66bfbf;
 }
+
 
 @media (max-width: 1200px) {
 

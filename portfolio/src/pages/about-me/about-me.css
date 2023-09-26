@@ -21,7 +21,7 @@
 }
 
 .divAboutMe p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: justify;
     color: #fff;
     background-color: #002b52;
@@ -72,11 +72,11 @@
         text-align: center;
     }
 
-    .p1{
+    .p1 {
         width: 94%;
         margin-bottom: 0;
     }
-    
+
     .divAboutMe section {
         width: 100%;
     }
@@ -89,9 +89,8 @@
         justify-content: center;
     }
 
-    .divAboutMe h2{
+    .divAboutMe h2 {
         width: 60%;
         text-align: center;
     }
 }
-
