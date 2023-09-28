@@ -20,7 +20,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="divContact">
+    <div className="divContact animate__animated animate__fadeIn animate__faster">
 
       <form ref={form} onSubmit={sendEmail}>
         <p className="writeMe">Write me a message!</p>

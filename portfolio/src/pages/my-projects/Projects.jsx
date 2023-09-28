@@ -6,7 +6,7 @@ import "./projects.css"
 
 export const Projects = () => {
   return (
-    <div className="divProjects">
+    <div className="divProjects animate__animated animate__fadeIn animate__faster">
       <ProjectsScroll/>
     </div>
   )

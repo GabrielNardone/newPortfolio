@@ -40,7 +40,7 @@ export const Ethics = () => {
 
 
   return (
-    <div className="divEthics">
+    <div className="divEthics animate__animated animate__fadeIn animate__faster">
 
       <Column/>
 

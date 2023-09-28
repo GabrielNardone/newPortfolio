@@ -2,9 +2,9 @@ import "./tech-pool.css"
 
 export const TechPool = () => {
   return (
-    <div className='divTechPool'>
+    <div className='divTechPool animate__animated animate__fadeIn animate__faster'>
       <article className="logoArticle">
-        <h2>Most used technologies:</h2>
+        <h2 className="blueH2">Most used technologies:</h2>
         <img src="/logo.svg" alt="react-logo" />
         <div>
           <span>React</span>
@@ -25,7 +25,7 @@ export const TechPool = () => {
         </div>
       </article>
       <article className="secondArticle">
-        <h2>Acquired skills:</h2>
+        <h2 className="redH2">Acquired skills:</h2>
         <div>
           <span>Java</span>
           <i className="fa-solid fa-seedling"></i>
@@ -41,7 +41,7 @@ export const TechPool = () => {
         </div>
       </article>
       <article className="thirdArticle">
-        <h2>Superficially acquired skills:</h2>
+        <h2 className="redH2">Superficially acquired skills:</h2>
         <div>
           <span>Python</span>
           <i className="fa-solid fa-seedling"></i>
@@ -57,7 +57,7 @@ export const TechPool = () => {
         </div>
       </article>
       <article className="fourthArticle">
-        <h2>Skills in progress:</h2>
+        <h2 className="redH2">Skills in progress:</h2>
         <div>
           <span>React Native</span>
           <i className="fa-solid fa-seedling"></i>

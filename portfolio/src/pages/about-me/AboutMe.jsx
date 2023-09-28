@@ -4,7 +4,9 @@ import "./about-me.css"
 
 export const AboutMe = () => {
   return (
-    <div className="divAboutMe">
+    <div 
+    className="divAboutMe animate__animated animate__fadeIn animate__faster"
+    >
       
       <h2> G.N. Software Developer</h2>
       <div>
