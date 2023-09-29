@@ -17,7 +17,9 @@
 .divAboutMe div {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     line-height: 7vh;
+    margin-top: 4vh;
 }
 
 .divAboutMe p {
@@ -26,18 +28,19 @@
     color: #fff;
     background-color: #002b52;
     border-radius: 14px;
-    padding: 3vh 3vw;
+    padding: 3vh 3vw 3vh 3vw;
     box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
 }
 
 .divAboutMe section {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .p1 {
     width: 40%;
+    margin-top: 0;
 }
 
 .p2 {
