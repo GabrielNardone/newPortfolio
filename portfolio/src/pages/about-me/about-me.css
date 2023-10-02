@@ -8,7 +8,6 @@
 
 .divAboutMe h2 {
     font-size: 2.3rem;
-    text-shadow: 2px 2px 5px rgba(102, 191, 191, .7);
     margin-bottom: 0;
     font-weight: bolder;
     margin-top: 0;
@@ -26,10 +25,9 @@
     font-size: 1.4rem;
     text-align: justify;
     color: #fff;
-    background-color: #002b52;
+    background-color: #00264D;
     border-radius: 14px;
     padding: 3vh 3vw 3vh 3vw;
-    box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
 }
 
 .divAboutMe section {

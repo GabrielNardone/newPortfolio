@@ -6,16 +6,10 @@ export const items = [
         link: "https://maps-app-gfn.netlify.app"
     },
     {
-        title: "Memory Game (React.JS)",
-        img: "/memory.jpg",
-        description: "I love memory games so I tried to make one. It's a lot of fun and I learned a lot implementing the logic. Use some packages.",
-        link: "https://gfn-memory-game.netlify.app"
-    },
-    {
-        title: "Old portfolio (React.JS)",
-        img: "/old-portfolio.jpg",
-        description: "This is my Old Portfolio.",
-        link: "https://old-gn-portfolio.netlify.app"
+        title: "Journal App (React.JS)",
+        img: "/journal-app.png",
+        description: "Jorunal app is a mini social network project. It has registration, authentication and database in Firebase, image repository in Cloudinary, the design is entirely with Material UI and the states are managed with Redux.",
+        link: "https://journal-app-gfn.netlify.app"
     },
     {
         title: "Calendar App (React.JS)",
@@ -28,6 +22,18 @@ export const items = [
         img: "/clinic-api.png",
         description: "I made this dentist-clinic-api with Java implementing the DAO pattern, Spring, Hibernate, exceptions and unit tests.",
         link: "https://github.com/GabrielNardone/FullStackProgress/tree/main/java-apps/cl%C3%ADnica-odontol%C3%B3gica-API%2BfrontEnd"
+    },
+    {
+        title: "Memory Game (React.JS)",
+        img: "/memory.jpg",
+        description: "I love memory games so I tried to make one. It's a lot of fun and I learned a lot implementing the logic. Use some packages.",
+        link: "https://gfn-memory-game.netlify.app"
+    },
+    {
+        title: "Old portfolio (React.JS)",
+        img: "/old-portfolio.jpg",
+        description: "This is my Old Portfolio.",
+        link: "https://old-gn-portfolio.netlify.app"
     },
     {
         title: "Heroes App (React.JS)",
@@ -60,3 +66,4 @@ export const items = [
         link: "https://dentist-app-gfn.netlify.app/"
     }
 ]
+
