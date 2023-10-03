@@ -8,7 +8,7 @@ export const items = [
     {
         title: "Journal App (React.JS)",
         img: "/journal-app.png",
-        description: "Jorunal app is a mini social network project. It has registration, authentication and database in Firebase, image repository in Cloudinary, the design is entirely with Material UI and the states are managed with Redux.",
+        description: "Journal app is a mini social network project. It has registration, authentication and database in Firebase, image repository in Cloudinary, the design is entirely with Material UI and the states are managed with Redux.",
         link: "https://journal-app-gfn.netlify.app"
     },
     {
