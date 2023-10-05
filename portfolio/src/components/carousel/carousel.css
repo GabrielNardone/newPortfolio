@@ -171,3 +171,24 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 410px) {
+
+    .carousel-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    .carousel-description {
+        font-size: .6rem;
+        width: 70%;
+    }
+
+    .carousel-description a {
+        font-size: 1rem;
+    }
+}
