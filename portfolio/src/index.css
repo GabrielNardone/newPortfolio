@@ -24,7 +24,6 @@ body {
   flex-direction: column;
   gap: 1vh;
   align-items: center;
-  border-right: 2px solid #d0d0d0;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -108,6 +107,7 @@ a:hover {
     z-index: 1;
     overflow-x: hidden;
     transition: 0.5s;
+    border-right: 2px solid #d0d0d0;
   }
 
   .outlet {
@@ -121,6 +121,10 @@ a:hover {
   nav {
     width: 80%;
     font-size: 1.3rem;
+  }
+
+  .divLinks {
+    margin-left: 10px;
   }
 
 }
@@ -140,11 +144,15 @@ a:hover {
   }
 
   .active1 {
-    width: 50vw;
+    width: 60vw;
   }
 
   nav {
     width: 80%;
+  }
+
+  .divLinks {
+    margin-left: 20px;
   }
 
 }
@@ -154,6 +162,10 @@ a:hover {
   nav {
     width: 90%;
     font-size: 1.2rem;
+  }
+
+  .divLinks {
+    margin-left: 20px;
   }
 
 }
