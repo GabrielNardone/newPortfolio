@@ -15,6 +15,8 @@ export const TechPool = () => {
           <span><i className="fa-solid fa-fish"></i></span>
           <span>React Native</span>
           <span><i className="fa-solid fa-fish"></i></span>
+          <span>Redux</span>
+          <span><i className="fa-solid fa-fish"></i></span>
           <span>HTML</span>
           <span><i className="fa-solid fa-fish"></i></span>
           <span>CSS</span>
