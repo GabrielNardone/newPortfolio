@@ -40,17 +40,16 @@ body {
 }
 
 nav {
-  background-color: #e5e7eb;
+  background-color: #F5F5F5;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   height: 45vh;
   justify-content: space-around;
   margin-top: 3vh;
   padding: 3vh 0;
   width: 15vw;
-  box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 

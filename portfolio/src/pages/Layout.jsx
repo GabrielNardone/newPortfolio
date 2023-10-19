@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom"
 import { Logo } from "../components/logo/Logo"
 import data from "../data/nav-links.json";
 import { Link } from "../components/links/Link";
-import { Fire } from '../components/fire/Fire'
 import { Header } from "../components/header/Header";
 import { useEffect, useState } from "react";
 
@@ -33,7 +32,6 @@ export const Layout = () => {
                     {data.map((elem, index) => <Link key={index} props={elem} />)}
                 </nav>
 
-                <Fire />
 
             </section>
 
