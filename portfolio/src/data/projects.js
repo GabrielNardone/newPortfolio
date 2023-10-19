@@ -20,7 +20,7 @@ export const items = [
     {
         title: "Clinic Api (Java)",
         img: "/clinic-api.png",
-        description: "I made this dentist-clinic-api with Java implementing the DAO pattern, Spring, Hibernate, exceptions and unit tests.",
+        description: "I made this dentist-clinic-api with Java implementing the CRUD, the DAO pattern, Spring, Hibernate, exceptions and unit tests.",
         link: "https://github.com/GabrielNardone/FullStackProgress/tree/main/java-apps/cl%C3%ADnica-odontol%C3%B3gica-API%2BfrontEnd"
     },
     {
