@@ -15,18 +15,6 @@
     margin-right: 3vw;
 }
 
-.min-width-title{
-    font-size: 1.5rem;
-    font-family: 'HACKED', sans-serif;
-    letter-spacing: 3px;
-    background: -webkit-linear-gradient(#051937, #12A8EB);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-}
-
 
 @media (max-width: 740px) {
 
@@ -55,13 +43,19 @@
     }
 
     .header h1 {
-        font-size: 2rem;
+        display: none;
     }
 
     .logoHeader {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .logoHeader p{
+        font-weight: bold;
+        padding-top: 6px;
+        padding-left: 3px;
     }
 
     .logoHeader span {
@@ -89,6 +83,7 @@
     .header button{
         display: none;
     }
+    
 }
 
 @media (max-width: 520px) {
@@ -107,11 +102,6 @@
     }
 }
 
-@media (min-width: 481px) {
-    .min-width-title{
-        display: none;
-    }
-}
 
 @media (max-width: 430px) {
     .min-width-title{
