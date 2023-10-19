@@ -7,13 +7,9 @@
     position: relative;
 }
 
-.logoDiv img {
-    width: 35px;
-    position: absolute;
-}
 
 .logoDiv span {
-    font-size: 6rem;
+    font-size: 5rem;
     background: -webkit-linear-gradient(#051937, #12A8EB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,5 +19,5 @@
     font-size: 0.6rem;
     position: absolute;
     font-weight: bold;
-    bottom: 15px;
+    bottom: 0;
 }
