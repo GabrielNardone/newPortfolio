@@ -21,9 +21,11 @@ export const TechPool = () => {
           <span><i className="fa-solid fa-fish"></i></span>
           <span>CSS</span>
           <span><i className="fa-solid fa-fish"></i></span>
-          <span>Material UI</span>
-          <span><i className="fa-solid fa-fish"></i></span>
           <span>TailWind</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>Shadcn</span>
+          <span><i className="fa-solid fa-fish"></i></span>
+          <span>Material UI</span>
           <span><i className="fa-solid fa-fish"></i></span>
           <span>Git</span>
           <span><i className="fa-solid fa-fish"></i></span>
@@ -34,11 +36,11 @@ export const TechPool = () => {
         <div>
           <span>Java</span>
           <i className="fa-solid fa-seedling"></i>
-          <span>Maven</span>
-          <i className="fa-solid fa-seedling"></i>
-          <span>Spring</span>
+          <span>Spring Boot</span>
           <i className="fa-solid fa-seedling"></i>
           <span>Hibernate</span>
+          <i className="fa-solid fa-seedling"></i>
+          <span>Maven</span>
           <i className="fa-solid fa-seedling"></i>
           <span>SQL</span>
           <i className="fa-solid fa-seedling"></i>
@@ -70,7 +72,7 @@ export const TechPool = () => {
       <article className="fourthArticle">
         <h2 className="redH2">Skills in progress:</h2>
         <div>
-          <span>Next.js 13</span>
+          <span>Next.js 14</span>
           <i className="fa-solid fa-seedling"></i>
           <span>Ansible</span>
           <i className="fa-solid fa-seedling"></i>
