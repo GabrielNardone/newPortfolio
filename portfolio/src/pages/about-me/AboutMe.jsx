@@ -20,7 +20,6 @@ export const AboutMe = () => {
           <p className="p2">
             For the front-end I use the React library and the technologies that accompany it, and for the back-end I use Java with the Spring Boot framework.
             I really like everything that has to do with the entire web development cycle, algorithms and logic, but I also don't lack creativity and innovation.
-            Finally, I have great ambitions that I hope to achieve by working together.
           </p>
 
           <Selfie />
