@@ -4,10 +4,10 @@ import "./about-me.css"
 
 export const AboutMe = () => {
   return (
-    <div 
-    className="divAboutMe animate__animated animate__fadeIn animate__faster"
+    <div
+      className="divAboutMe animate__animated animate__fadeIn animate__faster"
     >
-      
+
       <h2> G.N. Software Developer</h2>
       <div>
         <p className="p1">Good to have you here mi amigo <i className="fa-regular fa-face-smile-wink"></i>. I´m Gabriel, I´m from Argentina and I can do some tech jobs for you.
@@ -18,12 +18,12 @@ export const AboutMe = () => {
 
         <section>
           <p className="p2">
-            My main stack is React and the whole group around it [javascript, typescript, node.js, packages, ...].
-            I really like everything that has to do with UX/UI, I don't lack creativity and innovation.
+            For the front-end I use the React library and the technologies that accompany it, and for the back-end I use Java with the Spring Boot framework.
+            I really like everything that has to do with the entire web development cycle, algorithms and logic, but I also don't lack creativity and innovation.
             Finally, I have great ambitions that I hope to achieve by working together.
           </p>
 
-          <Selfie/>
+          <Selfie />
         </section>
       </div>
     </div>
